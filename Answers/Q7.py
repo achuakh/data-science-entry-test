@@ -32,3 +32,5 @@ car1.describe_car()
 # describe car 2
 car2 = Car("Land Rover", "Defender", 2002)
 car2.describe_car()
+
+print(f"Details of the best 4x4: {car2.make}, {car2.model}")
